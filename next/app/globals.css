@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+img {
+    pointer-events: none;
+}
+
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    touch-action: none;
+    -ms-touch-action: none;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+.dim {
+    background: #000000c8;
+}
+
+.bs {
+    background: #121212;
+}
+
+.brd {
+    border: 1px solid #0669d2a0;
+}
+
+.bd {
+    border-bottom: 1px solid #323232;
+}
+
+@media screen and (max-height: 500px) {
+    .flxmxt {
+        justify-content: center;
+        align-items: start;
+    }
+    .max_mh {
+        max-height: 300px;
+    }
+}
